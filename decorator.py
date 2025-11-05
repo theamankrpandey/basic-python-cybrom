@@ -9,16 +9,29 @@
 #     print(x+y)
 # display(10,20)
 
-def hello(x):
-    def hii(p,q,r):
-        p=p+5
-        q=q+10
-        r=r+10
-        z=x(p,q,r)
-        return z
-    return hii
-@hello
-def hyy(a,b,c):
-    return a+b+c
-res=hyy(2,4,6)
-print(res)
+# def hello(x):
+#     def hii(p,q,r):
+#         p=p+5
+#         q=q+10
+#         r=r+10
+#         z=x(p,q,r)
+#         return z
+#     return hii
+# @hello
+# def hyy(a,b,c):
+#     return a+b+c
+# res=hyy(2,4,6)
+# print(res)
+
+    
+# def div1(func):
+#     def inner(x,y):
+#         if x<y:
+#             x,y = y,x
+#         return func(x,y)
+#     return inner
+# @div1
+# def div(a,b):
+#     return a/b
+# res=div(2,4)
+# print(res)
