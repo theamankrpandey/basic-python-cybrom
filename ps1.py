@@ -94,3 +94,17 @@
 #     print("arm")
 # else:
 #     print("not")
+
+
+# print a function for fibonacci series
+# def fibo(n):
+#     ft = 0
+#     st = 1
+#     print(ft, st, end=" ")     
+#     for i in range(2, n):      
+#         next = ft + st
+#         print(next, end=" ")
+#         ft = st
+#         st = next
+
+# fibo(6)

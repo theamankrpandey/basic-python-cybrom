@@ -1,9 +1,24 @@
-def outer(x):
-    def inner():
-        print("welcome")
-        x()
-    return inner
-def display():
-    print("hello")
-res=outer(display)
-res()
+# def outer(x):
+#     def inner(p,q):
+#         p=p+5
+#         q=q+10
+#         x(p,q)
+#     return inner
+# @outer
+# def display(x,y):
+#     print(x+y)
+# display(10,20)
+
+def hello(x):
+    def hii(p,q,r):
+        p=p+5
+        q=q+10
+        r=r+10
+        z=x(p,q,r)
+        return z
+    return hii
+@hello
+def hyy(a,b,c):
+    return a+b+c
+res=hyy(2,4,6)
+print(res)
