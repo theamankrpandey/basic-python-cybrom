@@ -81,7 +81,7 @@
 n=int(input("enter a number"))
 for i in range(1,n+1):
     for j in range(1,n*2):
-        if i==4 or i+j==5 or j-i==3:
+        if i==4 or i+j==5 or j-i==4:
             print("*",end="")
         else:
             print(end=" ")
