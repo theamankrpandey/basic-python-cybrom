@@ -1,5 +1,0 @@
-python
-this is python
-this is
-python
-class

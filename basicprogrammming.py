@@ -38,3 +38,41 @@
 #   ABCBA
 #  ABCDCBA
 # ABCDEDCBA
+
+
+# n=int(input("enter a number"))
+# rev=0
+# while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# print(rev)
+
+# reverse a number
+# n=int(input("enter a number"))
+# def hello(n):
+#     count=0
+#     while n>0:
+#        count+=1
+#        n=n//10
+#     return count
+# hello(n)
+
+
+# count a digit
+# n=int(input("enter a number"))
+# count=0
+# while n>0:
+#     n=n//10
+#     count+=1
+# print(count)
+
+
+
+# n=int(input("enter a number"))
+# rev=0
+# while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# print(rev)
