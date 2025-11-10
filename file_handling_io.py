@@ -78,8 +78,24 @@
 # import os 
 # os.remove('n7.txt')
 
+# with open('a1.txt','a') as f:
+#     data=("\nhello i aman learning python\n")
+#     f.write(data)
+#     print(f.closed)
+# print(f.closed)
 
+# with open('a1.txt') as f:
+#     data=f.read()
+#     print(data)
+ 
+# with open('a1.txt','r') as f:
+#     print(f.tell())
+#     data=f.read(5)
+#     print(data)
+#     print(f.tell())
 
-
-
-
+# with open('a1.txt','r') as f:
+    # print(f.tell())
+    # data=f.read(5)
+    # print(data)
+    # print(f.seek(5))
