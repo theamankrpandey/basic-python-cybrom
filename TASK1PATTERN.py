@@ -132,3 +132,136 @@ for i in range(1, n + 1):
         ch += 2   
     print()'''
 
+         #A
+       # A B
+     #  A B C
+    # A  B C D
+  # A  B  C  D E
+'''n=int(input("enter a number"))
+for i in range(1,n+1):
+    print(" "*(n-i),end="")
+    for j in range(1,i+1):
+        print(chr(64+j),end=" ")
+    print()'''
+
+# A
+# B C
+# D E F
+# G H I J
+# K L M N O
+
+'''n=int(input("enter a number"))
+for i in range(1,n+1):
+    ch=65
+    for j in range(1,i+1):
+        print(chr(ch),end=" ")
+        ch+=1
+    print()'''
+
+# A
+# A C
+# A C E
+# A C E G
+# A C E G I
+'''n=int(input("enter a number"))
+for i in range(1,n+1):
+    ch=65
+    for j in range(1,i+1):
+        print(chr(ch),end=" ")
+        ch+=2
+    print()'''  
+
+
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+'''n=int(input("enter a number"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''
+
+
+
+        # *
+      # * *
+    # * * *
+  # * * * *
+# * * * * *
+'''n=int(input("enter a number"))
+for i in range(1,n+1):
+    print("  "*(n-i),end="")
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''  
+
+      # *
+     # * *
+    # * * *
+   # * * * *
+  # * * * * *
+'''n=int(input("enter a number"))
+for i in range(1,n+1):
+    print(" "*(n-i),end=" ")
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''
+
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
+'''n=int(input("enter a number"))
+for i in range(n,0,-1):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''
+
+  # * * * * *
+    # * * * *
+      # * * *
+        # * *
+          # *
+'''n=int(input("enter a number"))
+for i in range(n,0,-1):
+    print("  "*(n-i),end="")
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''
+
+
+
+    # * * * * *
+     # * * * *
+     # * * *
+     # * *
+      # * 
+'''n=int(input("enter a number"))
+for i in range(n,0,-1):
+    print(" "*(n-i),end="")
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''
+
+
+    # *
+    # * *
+    # * * *
+    # * * * *
+    # * * * * *
+    # * * * *
+    # * * *
+    # * *
+    # *
+'''n=int(input("enter a number"))
+for i in range(1,n):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()
+for i in range(n,0,-1):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print()'''
