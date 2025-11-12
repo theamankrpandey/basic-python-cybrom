@@ -178,3 +178,10 @@
 #     print(a*b)
 # hello(5,6)
 
+#armstrong   number
+def arm(num):
+    power=len(str(num))
+    sum=0
+    o=num
+#frequency
+# reverse
