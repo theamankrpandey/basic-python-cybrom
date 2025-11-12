@@ -1,1 +1,1 @@
-print(student.n)
+print(s1.fullname,s1.model,s1.brand)
