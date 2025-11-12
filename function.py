@@ -165,3 +165,16 @@
 #     return "hello"
 # print(show_detail())
 # show_detail()
+
+# return type with argument
+# def show(a,b):
+#     return a+b
+# data=show(5,6)
+# print(show(5,6))
+
+
+# non-return type with argument
+# def hello(a,b):
+#     print(a*b)
+# hello(5,6)
+
