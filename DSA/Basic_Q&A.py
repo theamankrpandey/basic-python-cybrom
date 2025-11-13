@@ -50,12 +50,24 @@
 #     print("not")
 
 
-# print factor of numers
+# print factor of numbers
 # n=int(input("enter a number to find the factor"))
 # for i in range(1,(n//2)+1):
 #     if n%i==0:
 #         print(i)
 # print(n)
+
+# optimal solution of factor of numbers
+# from math import sqrt
+# l=[]
+# n=int(input("emter a number"))
+# for i in range(1,int(sqrt(n))+1):
+#     if n%i==0:
+#         l.append(i)
+#         if n//i!=i:
+#             l.append(n//i)
+# print(l)
+
 
 # store the factor of number in a list form
 # n=int(input("enter a number to find the factor"))
@@ -64,3 +76,4 @@
 #     if n%i==0:
 #         li.append(i)
 # print(li)
+

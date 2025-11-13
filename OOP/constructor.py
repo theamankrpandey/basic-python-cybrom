@@ -12,7 +12,7 @@ class car:
         self.brand=brand
         self.model=model
     def car1(self):
-        return f"{self.brand} {self.fullname}"
+        return f"{self.brand} {self.fullname}"  
 s1=car("toyota","korola","xxxcv")
 # print(s1.fullname,s1.model,s1.brand)
 print(s1.car1())
