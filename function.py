@@ -69,11 +69,11 @@
 #     print(f'{x,y,z}')
 # fun_name()
 
-# def fun_name(*args):
-#     print(args)
-#     print(type(args))
-# t=eval(input("enter"))
-# fun_name(t)
+def fun_name(**aman):
+    print(aman)
+    print(type(aman))
+t=eval(input("enter"))
+fun_name(**t)
 
 # def add_all(*n):
 #     sum=0
@@ -178,10 +178,29 @@
 #     print(a*b)
 # hello(5,6)
 
-#armstrong   number
-def arm(num):
-    power=len(str(num))
-    sum=0
-    o=num
-#frequency
+#armstrong  number
+# def armstrong(num):
+#     power=len(str(num))
+#     arm=0
+#     o=num
+#     i=1
+#     while num>0:
+#         digit=num%10
+#         arm=arm+digit**power
+#         num=num//10
+#     if (o==arm):
+#         print("armstrong number")
+#     else:
+#         print("not armstrong")
+# n=int(input("enter a number"))
+# armstrong(n)
+
+#frequency in list
+# def fre(n):
+#     l={}
+#     for i in n:
+#         l[i]=l.get(i,0)+1
+#     print(l)
+# n=list(input("enter a number"))
+# fre(n)
 # reverse

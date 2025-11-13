@@ -60,8 +60,6 @@
 #         print("choose a valid option")      
 
 
-n=int(input("enter a number"))
-for i in range(n,0):
     
 # *********
 #  *******
@@ -82,3 +80,4 @@ for i in range(n,0):
 #     else:
 #         return n*fact(n-1)
 # print(fact(5))  
+
