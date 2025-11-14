@@ -24,3 +24,14 @@ obj=web('ecomm')
 obj.great()
 # obj=web
 # obj.great()
+
+
+
+class student:
+    rate=102
+    @classmethod
+    def hello(cls,rateli):
+        print(rateli)
+s=student()
+# s.hello()
+s.hello(202)

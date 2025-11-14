@@ -1,1 +1,1 @@
-print(s1.fullname,s1.model,s1.brand)
+s.rate=103
