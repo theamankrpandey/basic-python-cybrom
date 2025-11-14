@@ -17,6 +17,7 @@
 class web:
     def __init__(self,name):
         self.n=name
+    @staticmethod
     def great():
         print("welcome to my web page")
 obj=web('ecomm')
