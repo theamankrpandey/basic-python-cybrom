@@ -79,7 +79,7 @@
 
 #  move zero in the end of the list using function
 def hello(l):
-    if len(l)==0:
+    if len(l)==1:
         return
     i=0
     while i<len(l):
@@ -94,6 +94,6 @@ def hello(l):
             l[i],l[j]=l[j],l[i]
             i+=1
         j+=1
-l=[1,2,0,5,0,1,0]
+l = list(map(int,input("Enter numbers separated by space: ").split()))
 hello(l)
 print(l)

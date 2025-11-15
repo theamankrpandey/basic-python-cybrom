@@ -14,6 +14,7 @@ class parent:
 class child(parent):
     def home (self):
         print("home from child")
-        # super().home()
+        super().home()
 obj=child()
+# obj.home()
 obj.home()
