@@ -77,3 +77,23 @@
 #         li.append(i)
 # print(li)
 
+#  move zero in the end of the list using function
+def hello(l):
+    if len(l)==0:
+        return
+    i=0
+    while i<len(l):
+        if l[i]==0:
+            break
+        i+=1
+    if i==len(l):
+        return
+    j=i+1
+    while j<len(l):
+        if l[j]!=0:
+            l[i],l[j]=l[j],l[i]
+            i+=1
+        j+=1
+l=[1,2,0,5,0,1,0]
+hello(l)
+print(l)
