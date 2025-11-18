@@ -69,11 +69,11 @@
 #     print(f'{x,y,z}')
 # fun_name()
 
-def fun_name(**aman):
-    print(aman)
-    print(type(aman))
-t=eval(input("enter"))
-fun_name(**t)
+# def fun_name(**aman):
+#     print(aman)
+#     print(type(aman))
+# t=eval(input("enter"))
+# fun_name(**t)
 
 # def add_all(*n):
 #     sum=0
@@ -203,4 +203,30 @@ fun_name(**t)
 #     print(l)
 # n=list(input("enter a number"))
 # fre(n)
+
 # reverse
+# def hello
+
+# waf to print 0th number end of the list
+# def hello(n):
+#     if len(n)==1:
+#         return
+#     i=0
+#     while i<len(n):
+#         if n[i]==0:
+#             break
+#         i+=1
+#         if i==len(n):
+#             return
+#         j=i+1
+#         while j<len(n):
+#             if n[j]!=0:
+#                 n[i],n[j]=n[j],n[i]
+#                 i+=1
+#             j+=1
+# n=list(map(int,input("enter a number with space").split()))
+# hello(n)
+# print(n)
+
+
+

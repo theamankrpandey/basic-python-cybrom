@@ -25,3 +25,19 @@
 #     def __init__(self):
 #         print("welcome")
 # obj=student()
+
+class student:
+    grade="10th"
+    def __init__(self,name,roll):
+        self.n=name
+        self.r=roll
+        if student.grade:
+            self.g=student.grade
+    @classmethod
+    def change(cls,newgrade):
+        cls.newgrade=student.grade
+obj=student("aman",101)
+print(obj.g,obj.n)
+obj.change("12th")
+print(obj.newgrade)
+

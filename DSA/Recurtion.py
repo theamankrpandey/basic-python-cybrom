@@ -20,9 +20,17 @@
 #     print("aman")
 # hello()
 
-def factorial(n):
-    if n==0 or n==1:
-        return 1
-    else:
-        return n*factorial(n-1)
-print(factorial(5))
+# factorial using recursion
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+
+# print 1 to n using recursion tail calling first printing l
+# def hello(i,n):
+#     if i<n:
+#         return
+#     hello(i-1,n)
+#     print(i)
+# hello(10,1)

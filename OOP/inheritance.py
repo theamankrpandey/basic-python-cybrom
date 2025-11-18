@@ -47,19 +47,20 @@
 #             print("pin created succesfully")
 # n=atm() 
 
-class student:
-    gread ='10th'
-    def __init__(self,name,roll):
-        self.n,self.r = name,roll
+# class student:
+#     gread ='10th'
+#     def __init__(self,name,roll):
+#         self.n,self.r = name,roll
     
-    def new(cls,newgrade):
-        cls.gread=newgrade
-        print(id(cls))
-        print(id(student))
+#     def new(cls,newgrade):
+#         cls.gread=newgrade
+#         print(id(cls))
+#         print(id(student))
 # obj=student("aman",19)
 # print(obj.n,obj.r) 
-obj2=student("ujjwal",102)
-obj2.new("12th")
-print(obj2.gread)
-print(obj2.n)
-print(id(student))
+# obj2=student("ujjwal",102)
+# obj2.new("12th")
+# print(obj2.new)
+# print(obj2.n)
+# print(id(student))
+
