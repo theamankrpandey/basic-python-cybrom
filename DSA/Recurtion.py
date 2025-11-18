@@ -34,3 +34,18 @@
 #     hello(i-1,n)
 #     print(i)
 # hello(10,1)
+
+#use funtional recursion funtional recursion
+# def hello(sum,a,b):
+#     if a>b:
+#         print(sum)
+#         return
+#     hello(sum+a,a+1,b)
+# hello(0,1,3)
+
+# funtional recursion
+def hello(n):
+    if n==1:
+        return 1
+    return n+hello(n-1)
+print(hello(3)) 

@@ -16,3 +16,4 @@ class c(a,b):
 # obj.home()
 obj = c()
 obj.home()
+ 
