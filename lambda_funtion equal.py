@@ -56,4 +56,19 @@
 # print(a("hello"))
 
 # Write a lambda function to check if a string is a palindrome.
-x=lambda
+# x=lambda a:"palindrome" if a[::-1]==a else "not"
+# print(x("aman"))
+
+
+
+# Write a lambda function to find the cube of a number.
+# x= lambda a:a**3
+# print(x(2))
+
+# Write a lambda function to find the largest number in a list using max() and key=lambda.
+# x=lambda a:max(a)
+# print(x([1,2,4]))
+
+# Write a lambda function to sort a list of tuples based on the second element.
+# x=lambda a:sorted(a,key=lambda a:a[1])
+# print(x([(1, 3), (4, 2), (5, 1)]))
