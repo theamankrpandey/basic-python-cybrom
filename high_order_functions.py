@@ -1,0 +1,20 @@
+# map() - return multiple data
+# data=[1,3,4,5,6]
+# ans = list(map(lambda x:x*x,data))
+# print(ans)
+# filter() - data which satisfy the conditions or only true
+# data=[1,3,4,5,6,20]
+# ans = list(filter(lambda x:x>=18,data))
+# print(ans)
+# reduce() - returns only single data
+# from functools import reduce
+# data=[1,3,4,5,6,20]
+# ans = reduce(lambda x,y:x+y,data)
+# print(ans)
+# syntex - (funtion,iterable-object)
+
+
+# 1) Square each number in a list using map()
+l=[1,2,3,4]
+x=list(map(lambda x:x*x,l))
+print(x)
