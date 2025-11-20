@@ -44,8 +44,15 @@
 # hello(0,1,3)
 
 # funtional recursion
-def hello(n):
-    if n==1:
-        return 1
-    return n+hello(n-1)
-print(hello(3)) 
+# def hello(n):
+#     if n==1:
+#         return 1
+#     return n+hello(n-1)
+# print(hello(3)) 
+
+# waf to print factorial of a number
+# def hello(n):
+#     if n==0:
+#         return 1
+#     return n*hello(n-1)
+# print(hello(5))
