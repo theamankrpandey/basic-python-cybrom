@@ -33,8 +33,21 @@ Output:3'''
 
 
 # input:-"python" output:- "qzuipo"
-n=input("enter a number")
-for i in n:
-    ch=chr(ord(i)+1)
-    print(ch,end=" ")
-print()
+# n=input("enter a number")
+# for i in n:
+#     ch=chr(ord(i)+1)
+#     print(ch,end=" ")
+# print()
+
+# Q.2(a) Write a Python program to check the given number is prime or not.
+# n=int(input("enter a number"))
+# count=0
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("prime")
+# else:
+#     print("not")
