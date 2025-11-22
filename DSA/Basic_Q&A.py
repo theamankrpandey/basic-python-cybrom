@@ -99,3 +99,8 @@
 # print(l)
 
 
+# Q.1(b) Write a Python program to count the occurrences of each word in a
+# given sentence. Input:”welcome to cybrom”
+
+n=input("enter a number")
+print(len(n.split()))   
