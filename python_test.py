@@ -51,3 +51,30 @@ Output:3'''
 #     print("prime")
 # else:
 #     print("not")
+
+
+# Q.2(b) Write a Python program to print following pattern
+# 1
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+
+# n=int(input("enter a number"))
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print()
+
+
+# Q.3(a) Write a Python program to get the smallest number from a list.
+# Example:
+# Input:[4,5,6,1,8]
+# Output:1
+
+l = list(map(int, input("Enter list items: ").split()))
+small=l[0] 
+for i in l:
+    if i<small:
+        small=i 
+print(small)

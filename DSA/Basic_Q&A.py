@@ -102,5 +102,9 @@
 # Q.1(b) Write a Python program to count the occurrences of each word in a
 # given sentence. Input:”welcome to cybrom”
 
-n=input("enter a number")
-print(len(n.split()))   
+# n=input("enter a number")
+# print(len(n.split()))   
+
+l=[1,2,3,4,5]
+l[0],l[-1]=l[-1],l[0]
+print(l)
