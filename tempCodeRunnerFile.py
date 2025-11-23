@@ -1,1 +1,1 @@
-c=int(input("enter a number"))
+90,32,45,6,1
