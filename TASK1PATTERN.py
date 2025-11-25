@@ -265,3 +265,20 @@ for i in range(n,0,-1):
     for j in range(1,i+1):
         print("*",end=" ")
     print()'''
+
+
+# Q.3(a)Write a  program to print the following pattern
+# Sample :
+# A B C D E
+# F G H I
+# J K  L
+# M N
+# O
+
+# n=int(input("enter a number"))
+# ch=65
+# for i in range(n,0,-1):
+#     for j in range(1,i+1):
+#         print(chr(ch),end=" ")
+#         ch+=1
+#     print()
