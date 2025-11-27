@@ -282,3 +282,25 @@ for i in range(n,0,-1):
 #         print(chr(ch),end=" ")
 #         ch+=1
 #     print()
+
+
+# Write a program to count occurrences of all characters within a string
+# Sample :
+# Input: “apple”
+# Output:a-1,p-2,l-1,e-1
+# n=input("Enter a string : ")
+# ch={}
+# for i in n:
+#     if i not in ch:
+#         ch[i] = 1
+#     else:
+#         ch[i] += 1
+
+# for j in ch:
+#     print(j, "-", ch[j])
+
+
+# Q.4(a)Count and print how many times 'football' appears in list.
+# Sports=[‘cricket’,’football’,’tennis’,’football’,’hockey’]
+
+    
