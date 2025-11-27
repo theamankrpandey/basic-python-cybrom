@@ -133,12 +133,50 @@
 # d=person("Rahul","India","16/9/2000",25)    
 
 # count dublicte from a set
-s=[1,2,1,2,1]
-a={}
-for i in s:
-    if i not in a:
-        a[i]=0
-    else:
-        a[i]+=1
-for j in a:
-    print(j,"-",a[j])
+# s=[1,2,1,2,1]
+# a={}
+# for i in s:
+#     if i not in a:
+#         a[i]=0
+#     else:
+#         a[i]+=1
+# for j in a:
+#     print(j,"-",a[j])
+
+
+# Q.10(a) Create an Abstract base class called Vehicle with 
+# two abstract methods start_engine() and Get_fuel_type()
+#  that all vehicle types must implement,plus a concrete method 
+# get_info() that provides common vehicle information.
+
+# from abc import ABC,abstractmethod
+# class vehicle(ABC):
+#     def __init__(self,name,color):
+#         self.n=name
+#         self.c=color
+#     @abstractmethod
+#     def start_engine(car):
+#         pass
+#     @abstractmethod
+#     def get_fuel(car):
+#         pass
+#     def get_info(self):
+#         print(self.n)
+#         print(self.c)
+# class car(vehicle):
+#     def start_engine(vehicle):
+#         print("The car engine is started")
+#     def get_fuel(vehicle):
+#         print("This car is petrol type")
+#     def get_info(self):
+#         print(self.n)
+#         print(self.c)   
+# d=car("mastang","pink")
+# d.get_info()
+# d.start_engine()
+# d.get_fuel()
+
+
+
+# Q.10(b) Create an iterator that returns numbers, starting with 1,
+# and each sequence will increase by one (returning 1,2,3,4,5 etc.)
