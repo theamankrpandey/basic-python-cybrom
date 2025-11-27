@@ -28,20 +28,6 @@
 # for j in ch:
 #     print(j,"-",ch[j],",",end="")
 
-# Write a program to count occurrences of all characters within a string
-# Sample :
-# Input: “apple”
-# Output:a-1,p-2,l-1,e-1
-# n=input("Enter a string : ")
-# ch={}
-# for i in n:
-#     if i not in ch:
-#         ch[i] = 1
-#     else:
-#         ch[i] += 1
-
-# for j in ch:
-#     print(j, "-", ch[j])
 
 
 
@@ -180,3 +166,22 @@
 
 # Q.10(b) Create an iterator that returns numbers, starting with 1,
 # and each sequence will increase by one (returning 1,2,3,4,5 etc.)
+
+
+
+
+
+
+# Q.6(b) Write a python class to implement pow(b,p) without using inbuilt function. Or operator.
+# Input:pow(2,3)
+# Output:8
+
+# class p:
+#     def power(self,a,b):
+#         result=1
+#         while b>0:
+#             result=a*result
+#             b=b-1
+#         return result
+# d=p()
+# print(d.power(2,3))
