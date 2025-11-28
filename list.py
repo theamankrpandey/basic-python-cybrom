@@ -1,10 +1,10 @@
-list=[]
-a=eval(input("enter phy"))
-list.append(("phy",a))
-b=eval(input("enter che"))
-list.append(("che",b))
-l=dict(list)
-print(l)
+# list=[]
+# a=eval(input("enter phy"))
+# list.append(("phy",a))
+# b=eval(input("enter che"))
+# list.append(("che",b))
+# l=dict(list)
+# print(l)
 
 
 # fruits = ["apple", "banana"]
