@@ -20,3 +20,15 @@ print(l)
 # किसी खास जगह insert करने के लिए
 # fruits.insert(1, "cherry")
 # print(fruits)   # ['apple', 'cherry', 'banana', 'mango', 'grapes', 'orange']
+
+
+# wap to print list without dublicates
+# l=[3,4,5,2,2,1,1]
+# k=[]
+# for i in l:
+#     if i not in k:
+#         k.append(i)
+# print(k)
+
+# s=set(l)
+# print(s)
