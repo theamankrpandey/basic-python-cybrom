@@ -108,3 +108,36 @@
 #         st = next
 
 # fibo(6)
+
+
+
+# Finding the Second Largest Number in an Array
+# Input:
+# array = [10, 20, 4, 45, 99]
+# Output:
+# 45
+
+# def sort(n):
+#     l=len(n)
+#     for i in range(0,l):
+#         for j in range(i+1,l):
+#             if n[j] > n[i]:
+#                 n[j],n[i]=n[i],n[j]
+#     return n
+# num=[10, 20, 4, 45, 99]
+# p=sort(num)
+# print(p[1])
+
+
+# Input:
+# [2 4 6 8 10]
+# Output:
+# 18
+# Explanation:
+# Values at even indices: 2 (index 0), 6 (index 2), 10 (index 4). Sum = 2 + 6 + 10 = 18.
+# n =[2,4,6,8,10]
+# result=0
+# for i in range(len(n)):
+#     if i % 2 ==0:
+#         result+=n[i]
+# print(result)
