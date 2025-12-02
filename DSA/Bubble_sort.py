@@ -7,3 +7,5 @@ def sort(l):
     return l
 num=list(map(int,input("enter a list").split()))
 print(sort(num))
+
+
