@@ -1,0 +1,17 @@
+def sort(n):
+    for i in range(len(n)-1):
+        if n[i]>n[i+1]:
+            return "not sorted"
+    return "sorted"
+arr=[1,2,6,4,5,6,7,8]
+print(sort(arr))
+
+
+
+def sort(n):
+    prev = n[0]         
+    for current in n[1:]:    
+        if current < prev:   
+            return "not sorted"
+        prev = current       
+    return "sorted"
