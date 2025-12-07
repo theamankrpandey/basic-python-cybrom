@@ -1,4 +1,4 @@
-
+# arr = [10, 20, 4, 45, 99]
 def second_largest(n):
     if len(n)<2:
         return
