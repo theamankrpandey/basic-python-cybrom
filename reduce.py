@@ -22,3 +22,14 @@
 # result = reduce(add, l)
 # print(result)
 
+
+
+from functools import reduce
+l=[1,40,50,60,100]
+def max_no(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+res = reduce(max_no,l)
+print(res)

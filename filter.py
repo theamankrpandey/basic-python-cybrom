@@ -9,3 +9,15 @@ print(result)
 # [2, 4, 6]
 
 
+
+
+
+
+l=[1,2,3,4,5,6,7,8]
+def even(n):
+        if n<=5:
+            return n
+res = filter(even,l)
+print(list(res))
+
+        

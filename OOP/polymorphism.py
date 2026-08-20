@@ -16,16 +16,27 @@
 
 
 
-class calculator:
-    def Calculation(self,num1=0,num2=0):
-        if(num1!=0 and num2!=0):
-            print(num1*num2)
-        if(num2==0):
-            print(num1+num2)
-        if(num1==0 and num2==0):
-            print(0)
+# class calculator:
+#     def Calculation(self,num1=0,num2=0):
+#         if(num1!=0 and num2!=0):
+#             print(num1*num2)
+#         if(num2==0):
+#             print(num1+num2)
+#         if(num1==0 and num2==0):
+#             print(0)
 
-obj = calculator()
-obj.Calculation(4)
-obj.Calculation()
-obj.Calculation(5,77)
+# obj = calculator()
+# obj.Calculation(4)
+# obj.Calculation()
+# obj.Calculation(5,77)
+
+class Animal:
+    class Dog:
+        def sound(self):
+            return "Bark"
+    class Cat(Dog):
+        def sound(self):
+            return "Meow"
+
+s = Animal()
+s1 = s.Cat

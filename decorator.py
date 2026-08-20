@@ -50,3 +50,25 @@
 
 
 
+# def add(x):
+#     def hello():
+#         x()
+#         print("transaction initiated")
+#     return hello
+
+# def hii():
+#     print("transaction started")
+# x=add(hii)()
+
+
+
+def add(x):
+    def hello(n):
+        print("welcome")
+        x(n)
+        print("thank u")
+    return hello
+@add
+def name(n):
+    print(n)
+name("Aman")

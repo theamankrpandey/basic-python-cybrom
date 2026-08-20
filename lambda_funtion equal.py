@@ -1,10 +1,44 @@
+# res=lambda x,y:x+y
+# print(res(4,5))
+
+# res=lambda x,y:print(x+y)
+# res(4,5)
+
+# res=lambda x,y:x+y
+# x=res(4,5)
+# print(x)
+
+# res=lambda x,y:print(x+y)
+# print(res(4,5)
+
+# res = lambda x,y:5
+# print(res(4,5))
+
+# res = lambda x,y:"hello"
+# print(res(4,5))
+
+
+
 # p=lambda x,y:print(x+y)
 # z=p(4,5)
 # print(z)
 
+# res=lambda x,y:x+y
+# res(4,5)
+
 # l=[1,2,3,4,5]
 # print(list(map(lambda n:n*n,l)))
 
+# l1=[1,2,3,4,5]
+# l2=[2,3,4,5,6]
+# res=map(lambda n1,n2:n1+n2,l1,l2)
+# res=filter(lambda n:n%2==0,l1)
+# print(list(res))
+
+# from functools import reduce
+# l1=[1,2,3,4,5]
+# res = reduce(lambda x,y :x if x>y else y ,l1)
+# print(res)
 
 
 # l1=[1,2,3,4,5]
@@ -72,3 +106,8 @@
 # Write a lambda function to sort a list of tuples based on the second element.
 # x=lambda a:sorted(a,key=lambda a:a[1])
 # print(x([(1, 3), (4, 2), (5, 1)]))
+
+
+a = 10
+a= 20
+print(a)
