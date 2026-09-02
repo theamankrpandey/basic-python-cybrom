@@ -60,6 +60,10 @@
 # o = A()
 # print(o._A__show())  #accessible but as per the documentation it's not accessible
 
-t = ([1, 2],[0], 3) 
-t[1].append(99)
-print(t)
+
+
+# t = ([1, 2],[0], 3) 
+# t[1].append(99)
+# print(t)
+
+

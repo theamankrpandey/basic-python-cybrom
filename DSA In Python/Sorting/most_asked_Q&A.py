@@ -1,13 +1,15 @@
 # Write a program to remove duplicates from a sorted array in place
 
 # text = "hello"
-# ch ={}
+# ch = []
 # for i in text:
 #     if i in ch:
-#         ch[i]+=1
+#         pass
 #     else:
-#         ch[i]=1
-# print(ch)
+#         ch += [i]
+# print("".join(ch))
+
+
 
 # Q2. Write a program to check whether a number is prime or not.
 # n = int (input("enter a number"))

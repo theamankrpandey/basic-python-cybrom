@@ -11,8 +11,24 @@
 
 
 
-class Student:
-    def __dog__(self):
-        print("Constructor called")
 
-s1 = Student()
+
+
+
+
+# a = [1,2,3]
+# b= [2,3,41]
+# c=[]
+
+# i =0;
+# while i <3:
+#     c+= [a[i]+b[i]]
+#     i+=1
+# print(c)
+
+
+# c=b[0]
+# for i in b:
+#     if i>c:
+#         c=i
+# print(c)

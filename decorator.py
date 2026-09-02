@@ -37,16 +37,19 @@
 # print(res)
 
 
-# def decoratoro(x):
-#     def hello():
-#         print("teansaction initiated")
-#         x()
-#         print("transaction succesful")
-#     return hello
-# @decoratoro
-# def hii():
-#     print("excuating all steps")
-# hii()
+def decoratoro(x):
+    def hello():
+        print("teansaction initiated")
+        x()
+        print("transaction succesful")
+    return hello
+@decoratoro
+def hii():
+    print("excuating all steps")
+
+'''internal Part Of calling the Funtion'''
+
+# x=decoratoro(hii)() 
 
 
 
@@ -62,6 +65,17 @@
 
 
 
+# def add(x):
+#     def hello(n):
+#         print("welcome")
+#         x(n)
+#         print("thank u")
+#     return hello
+# @add
+# def name(n):
+#     print(n)
+#     name("Aman")
+
 def add(x):
     def hello(n):
         print("welcome")
@@ -71,4 +85,7 @@ def add(x):
 @add
 def name(n):
     print(n)
-name("Aman")
+
+
+x = add(name)()
+x("Aman")

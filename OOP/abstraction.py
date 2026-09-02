@@ -21,37 +21,20 @@
 
 
 
-# from abc import ABC, abstractmethod
-# class Vehicle(ABC):
-#     @abstractmethod
-#     def start(self):
-#         print("vehicle is being started in few minutes")
-# class Bike(Vehicle):
-#     def start(self):
-#         print("Bike Start")
+from abc import ABC, abstractmethod
+class Vehicle(ABC):
+    @abstractmethod
+    def start(self):
+        print("vehicle is being started in few minutes")
+class Bike(Vehicle):
+    def start(self):
+        print("Bike Start")
 
 
-# obj = Bike()
-# obj.start()
+obj = Bike()
+obj.start()
 # obj1=Vehicle()
 # obj1.start()
 
 
 
-
-a = [1,2,3]
-# b= [2,3,4]
-# c=[]
-
-# i =0;
-# while i <3:
-#     c+= [a[i]+b[i]]
-#     i+=1
-# print(c)
-
-
-c=a[0]
-for i in a:
-    if i>c:
-        c=i
-print(c)
