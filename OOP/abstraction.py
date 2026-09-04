@@ -38,3 +38,24 @@ obj.start()
 
 
 
+
+from abc import ABC,abstractmethod
+class Animal(ABC):
+  @abstractmethod
+  def dog(self):
+    print("bark")
+
+  @abstractmethod
+  # @staticmethod 
+  def Dunckey(self):
+    pass
+
+class Dog(Animal):
+  def dog(self):
+    print("Bhow Bhooo BHUUUUU")
+  def Dunckey(self):
+    print("dhee chuu dhee chu dhee poooo 1")
+c= Dog()
+c.dog()
+
+c.Dunckey()

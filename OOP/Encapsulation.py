@@ -54,10 +54,12 @@
 
 
 '''Private Varibale ''' ''' Name Mangling'''
-# class A:
-#     def __show(self):    
-#         return "aman"
-# o = A()
+class A:
+    @staticmethod
+    def __show():    
+        return "aman"
+
+print(A._A__show())
 # print(o._A__show())  #accessible but as per the documentation it's not accessible
 
 
