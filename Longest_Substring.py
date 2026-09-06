@@ -1,15 +1,32 @@
-'''Longest_Substring Without repeating character remove dublicate'''
-a="helldfggohhhhdhdlijkmnb"
+'''Longest Substring Without Repeating Characters'''
+# class Solution:
+#     def lengthOfLongestSubstring(self, s: str) -> int:
+#         last_seen = {}
+#         l=0
+#         max_length=0
+#         for r in range(len(s)):
+#             if s[r] in last_seen:
+#                 l=max(last_seen[s[r]], l)
+#             last_seen[s[r]]=r+1
+#             max_length=max(max_length, r-l+1)
+#         return max_length
 
 
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        count =0
-        for i in range(0,len(s)-1):
-            if s[i] == s[i+1]:
-                count=count+1
-            else:
-                count=1
-        print(count)
-s=Solution()
-s.lengthOfLongestSubstring("helldfggohhhhdhdlijkmnb")
+
+
+
+
+'''Longest Substring Without Repeating Characters'''
+
+s = "abcabzncbb"
+max=""
+for i in range(len(s)):
+  c=""
+  for j in range(i,len(s)):
+    if s[j] not in c:
+      c=c+s[j]
+    else:
+      break
+  if len(max) < len(c):
+    max=c
+print(max)  

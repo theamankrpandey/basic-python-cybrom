@@ -37,17 +37,18 @@
 # print(res)
 
 
-def decoratoro(x):
-    def hello():
-        print("teansaction initiated")
-        x()
-        print("transaction succesful")
-    return hello
-@decoratoro
-def hii():
-    print("excuating all steps")
-hii()
-'''internal Part Of calling the Funtion'''
+# def decoratoro(x):
+#     def hello():
+#         print("teansaction initiated")
+#         x()
+#         print("transaction succesful")
+#     return hello
+# @decoratoro
+# def hii():
+#     print("excuating all steps")
+# hii()
+
+# '''internal Part Of calling the Funtion'''
 
 # x=decoratoro(hii)() 
 
@@ -91,3 +92,21 @@ hii()
 
 # x = add(name)()
 # x("Aman")
+
+
+
+
+def outer(original):
+    def inner(x,y):
+        return x*y
+    return inner
+@outer
+def original(p,q):
+    return p+q
+
+# a=outer(original)
+# b = a(6,6)
+# print(b)
+
+# x=original(5,6)
+# print(x)
