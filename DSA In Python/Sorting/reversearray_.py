@@ -18,6 +18,14 @@
  
 name='aman'
 rev=''
-for n in name:
-    rev=n+rev
+new=''
+for n in range(len(name)):
+        rev=name[n]+rev
 print(rev)
+for i in range(len(rev)):
+    if i==1:
+        new+="b"
+    else:
+         new=new+rev[i]
+print(new)
+           

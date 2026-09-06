@@ -185,3 +185,7 @@
 #         return result
 # d=p()
 # print(d.power(2,3))
+
+
+
+
