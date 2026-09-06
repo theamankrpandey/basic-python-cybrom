@@ -46,7 +46,7 @@ def decoratoro(x):
 @decoratoro
 def hii():
     print("excuating all steps")
-
+hii()
 '''internal Part Of calling the Funtion'''
 
 # x=decoratoro(hii)() 
@@ -76,16 +76,18 @@ def hii():
 #     print(n)
 #     name("Aman")
 
-def add(x):
-    def hello(n):
-        print("welcome")
-        x(n)
-        print("thank u")
-    return hello
-@add
-def name(n):
-    print(n)
 
 
-x = add(name)()
-x("Aman")
+# def add(x):
+#     def hello(n):
+#         print("welcome")
+#         x(n)
+#         print("thank u")
+#     return hello
+# @add
+# def name(n):
+#     print(n)
+
+
+# x = add(name)()
+# x("Aman")
