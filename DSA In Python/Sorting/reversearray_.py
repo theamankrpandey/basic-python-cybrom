@@ -28,4 +28,14 @@ for i in range(len(rev)):
     else:
          new=new+rev[i]
 print(new)
-           
+
+
+'''Reverse Array'''
+a=[5,3,4,6,7]
+j=len(a)-1
+for i in range(0,len(a)):
+  if j>i:
+    a[i],a[j]=a[j],a[i]
+    j=j-1
+print(a)
+    

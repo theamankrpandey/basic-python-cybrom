@@ -1,9 +1,11 @@
-a = [3,4,3,6,7]
-target=7
-for i in range(len(a)-1):
-        if a[i]+a[i+1]==target:
-            print("i:-",i,"i+1:-",i+1)
-            
-        else:
-            pass
-            
+a = [4, 8, 6, 7, 3]
+target = 7
+d = {}
+for i in range(len(a)):
+
+    x = target - a[i]
+
+    if x in d:
+        print("i:-", d[x], "j:-", i)
+
+    d[a[i]] = i

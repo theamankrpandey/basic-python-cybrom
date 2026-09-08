@@ -53,7 +53,7 @@ class Animal(ABC):
 class Dog(Animal):
   def dog(self):
     print("Bhow Bhooo BHUUUUU")
-  def Dunckey(self):
+  def Duncke(self):
     print("dhee chuu dhee chu dhee poooo 1")
 c= Dog()
 c.dog()

@@ -26,18 +26,25 @@
 #         print("welcome")
 # obj=student()
 
-class student:
-    grade="10th"
-    def __init__(self,name,roll):
-        self.n=name
-        self.r=roll
-        if student.grade:
-            self.g=student.grade
-    @classmethod
-    def change(cls,newgrade):
-        cls.newgrade=student.grade
-obj=student("aman",101)
-print(obj.g,obj.n)
-obj.change("12th")
-print(obj.newgrade)
+# class student:
+#     # grade="10th"
+#     def __init__(self,name,roll):
+#         self.n=name
+#         self.r=roll
+#     @classmethod
+#     def change(cls,newgrade):
+#         cls.newgrade=newgrade
+
+# obj1=student("aman",101)
+# print(obj1.n,obj1.r)
+# obj1.change("12th")
+# print(obj1.newgrade)
+
+
+
+
+
+class GrandParent:
+    def house(self):
+        print("House")
 

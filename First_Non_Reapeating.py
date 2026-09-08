@@ -13,4 +13,4 @@ for j in range(len(l)):
         print("character",l[j])
         break
     else:
-        pass
+        pass  

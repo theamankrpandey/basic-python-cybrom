@@ -6,7 +6,7 @@ class ad:
     # def add(self,a,b):
     #     return a+b
 obj = ad()
-print(obj.add(1,2,2))
+print(obj.add(1,2,3))
 
 
 """Method Overriding"""

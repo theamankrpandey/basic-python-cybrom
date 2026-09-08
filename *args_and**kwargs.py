@@ -5,7 +5,13 @@
 
 
 
-x=(1,2,3,4)
-print(*x)
-y=[1,2,3,4]
-print(*y)
+# x=(1,2,3,4)
+# print(*x)
+# y=[1,2,3,4]
+# print(*y)
+
+
+
+def fun(a,b):
+    print(a+b)
+fun(a=1,b=2)

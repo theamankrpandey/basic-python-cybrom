@@ -22,15 +22,25 @@
 
 
 
-def numbers():
-    yield 1
-    yield 2
-    yield 3
-    yield 4
-    yield 5
+# def numbers():
+#     yield 1
+#     yield 2
+#     yield 3
+#     yield 4
+#     yield 5
 
-g = numbers()
+# g = numbers()
 
-print((next(g)))
-print((next(g)))
-print((next(g)))
+# print((next(g)))
+# print((next(g)))
+# print((next(g)))
+
+
+
+# def display():
+#     for i in range(5):
+#         yield i
+# b=display()
+# print((next(b)))
+# print((next(b)))
+# print((next(b)))
