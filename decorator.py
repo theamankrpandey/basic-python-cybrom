@@ -108,5 +108,5 @@ def original(p,q):
 # b = a(6,6)
 # print(b)
 
-# x=original(5,6)
-# print(x)
+x=original(5,6)
+print(x)

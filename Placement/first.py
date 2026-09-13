@@ -89,8 +89,7 @@ print(a)
 
 
 '''second largest element'''
-'''second largest element'''
-l=[3,2,114,5,74,67]
+l=[1,2,114,5,4,67]
 largest=0
 Second_largest=0
 for i in l:
