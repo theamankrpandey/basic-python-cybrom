@@ -1,17 +1,17 @@
-class A:
-  def One(self):
-    print("A")
+# class A:
+#   def One(self):
+#     print("A")
 
-class B(A):
-  def One(self):
-    super().One()
-    print("B")
-class C(B,A):
-  def Two(self):
-    print("C")
+# class B(A):
+#   def One(self):
+#     super().One()
+#     print("B")
+# class C(B,A):
+#   def Two(self):
+#     print("C")
 
-c=C()
-c.One()
+# c=C()
+# c.One()
       
       
 
@@ -27,15 +27,15 @@ print(l)
 
 
 
-
-s="hello"
-a={}
-for i in range(len(s)):
-  if s[i] not in a:
-    a[s[i]]=1
-  else:
-    a[s[i]]+=1
-print(a)
+'''frequency count'''
+# s="hello"
+# a={}
+# for i in range(len(s)):
+#   if s[i] not in a:
+#     a[s[i]]=1
+#   else:
+#     a[s[i]]+=1
+# print(a)
 
 
 
@@ -89,18 +89,54 @@ print(a)
 
 
 '''second largest element'''
-l=[1,2,114,5,4,67]
-largest=0
-Second_largest=0
-for i in l:
-  if i > Second_largest and i<largest:
-    Second_largest=i
+# l=[1,2,114,5,4,67]
+# largest=0
+# Second_largest=0
+# for i in l:
+#   if i>largest:
+#     Second_largest = largest
+#     largest = i
+#   elif i<Second_largest:
+#     Second_largest=i
+# print(Second_largest)    
+    
+    
+'''important'''
+# li = [9,9]
 
-  if i>largest:
-    largest=i
-print(Second_largest)
-print(largest)
+# for i in range(len(li)-1,-1,-1):
+#   if li[i] != 9:
+#     li[i]+=1
+#     break
+
+#   if li[i] == 9:
+#     li[i]=0
+
+# if(li[0] == 0):
+#   li.insert(0,1)
     
+# print(li)
+
+
+'''Amagram'''
+# a="hello"
+# b="olleh"
+# c={}
+# d={}
+# for i in range(len(a)):
+#   if a[i] not in c:
+#     c[a[i]]=1
+#   else:
+#     c[a[i]]+=1
+# for j in range(len(b)):
+#   if b[j] not in d:
+#     d[b[j]]=1
+#   else:
+#     d[b[j]]+=1
+# if c==d:
+#   print("Anagram")
+# else:
+#   print("Not Anagram")
+
     
-    
-    
+      

@@ -30,13 +30,14 @@
 # obj.Calculation()
 # obj.Calculation(5,77)
 
-class Animal:
-    class Dog:
-        def sound(self):
-            return "Bark"
-    class Cat(Dog):
-        def sound(self):
-            return "Meow"
 
-s = Animal()
-s1 = s.Cat
+class Dog:
+    def sound(self):
+        return "Bark"
+class Cat(Dog):
+    def sound(self):
+        super().sound()
+        return "Meow"   
+
+s = Cat()
+print( s.sound())

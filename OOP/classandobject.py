@@ -48,3 +48,13 @@ class GrandParent:
     def house(self):
         print("House")
 
+class Parent(GrandParent):
+    def house(self):
+        print("Ghar")
+        
+class Child(Parent,GrandParent):
+    def house(self):
+        print("home")
+        super().house()
+c=Child()
+c.house()
